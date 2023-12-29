@@ -1,0 +1,97 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": true
+        },
+        "projectName": "Danube",
+        "multilingual": true,
+        "description": "LUIS Model for Property Booking",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "NewPropertyPurchase"
+            },
+            {
+                "category": "ExistingProperty"
+            },
+            {
+                "category": "InquireAboutHandoverProperty"
+            },
+            {
+                "category": "GeneralQuery"
+            },
+            {
+                "category": "None"
+            }
+        ],
+        "entities": [
+            {
+                "category": "ml city"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "New Property Purchase",
+                "intent": "NewPropertyPurchase",
+                "entities": []
+            },
+            {
+                "text": "Show me new Properties",
+                "intent": "NewPropertyPurchase",
+                "entities": []
+            },
+            {
+                "text": "list new Properties to purchase",
+                "intent": "NewPropertyPurchase",
+                "entities": []
+            },
+            
+            {
+                "text": "Existing Property",
+                "intent": "ExistingProperty",
+                "entities": []
+            },
+            {
+                "text": "Show me my existing properties",
+                "intent": "ExistingProperty",
+                "entities": []
+            },
+            
+            {
+                "text": "Hand Over Properties",
+                "intent": "InquireAboutHandoverProperty",
+                "entities": []
+            },
+            {
+                "text": "Show me handover properties",
+                "intent": "InquireAboutHandoverProperty",
+                "entities": []
+            },
+            
+            {
+                "text": "General Query",
+                "intent": "GeneralQuery",
+                "entities": []
+            },
+            {
+                "text": "I have some general query",
+                "intent": "GeneralQuery",
+                "entities": []
+            },
+            
+            {
+                "text": "None",
+                "intent": "None",
+                "entities": []
+            }
+        ]
+    }
+}
+ 

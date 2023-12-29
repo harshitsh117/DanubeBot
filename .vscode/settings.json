@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/3b1c8c61-fefa-458b-83a0-b6267db81203/resourceGroups/RG_Harshit/providers/Microsoft.Web/sites/DanubeBotPublished",
+    "appService.deploySubpath": "."
+}
